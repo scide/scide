@@ -16,10 +16,15 @@ html, body{
 }
 
 .right-vertical-bar{
-	background: blue;
+	/*background: blue;*/
 }
 
 .heading-row{
-	background: black;
+	/*background: light-grey;*/
 	font-size: 25px;
+}
+
+.left-vertical-bar-list-group a{
+	background: transparent;
+	border: none;
 }

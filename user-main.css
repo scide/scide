@@ -1,5 +1,6 @@
 html, body{
 	height: 100%;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -27,4 +28,32 @@ html, body{
 .left-vertical-bar-list-group a{
 	background: transparent;
 	border: none;
+}
+
+.bitsint{
+	text-align: right;
+	font-size: 45px;
+	font-weight: 400;
+}
+
+.refresh-btn{
+	border-radius: 50%;
+}
+
+.clock{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.projects-tab{
+	position: relative;
+	top: -3px;
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.badge{
+	position: relative;
+	top: -13px;
+	border-radius: 50%;
 }

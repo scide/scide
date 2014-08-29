@@ -57,3 +57,31 @@ html, body{
 	top: -13px;
 	border-radius: 50%;
 }
+
+.search-input-group{
+	width: 50%;
+}
+
+.search-project-btn{
+	border-radius: 20px;
+	margin-right: 9px;
+}
+
+.fa-plus-circle{
+	font-size: 19px;
+	margin-top: 6px;
+}
+
+.search-project-row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.result-content{
+	padding-left: 0;
+}
+
+.view-project-btn{
+	border-radius: 20px;
+	margin-top: 15px;
+}

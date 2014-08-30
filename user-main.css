@@ -29,9 +29,18 @@ html, body{
 	font-size: 25px;
 }
 
+.left-vertical-bar-list-group{
+	text-align: center;
+}
+
 .left-vertical-bar-list-group a{
 	background: transparent;
 	border: none;
+}
+
+.left-vertical-bar-icon{
+	font-size: 45px;
+	/*color: light-blue;*/
 }
 
 .bitsint{

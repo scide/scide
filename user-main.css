@@ -10,6 +10,10 @@ html, body{
 	height: 100%;
 }
 
+.bold{
+	font-weight: 600;
+}
+
 /*============ CUSTOM STYLES ========== */
 
 .left-vertical-bar{
@@ -62,6 +66,10 @@ html, body{
 	width: 50%;
 }
 
+.search-input-group input{
+	border: none;
+}
+
 .search-project-btn{
 	border-radius: 20px;
 	margin-right: 9px;
@@ -84,4 +92,8 @@ html, body{
 .view-project-btn{
 	border-radius: 20px;
 	margin-top: 15px;
+}
+
+.notification-row{
+	margin-top: 20px;
 }

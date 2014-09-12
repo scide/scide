@@ -17,7 +17,7 @@ html, body{
 /*============ CUSTOM STYLES ========== */
 
 .left-vertical-bar{
-	background: grey;
+	background: #4F5B6B;
 }
 
 .right-vertical-bar{
@@ -25,7 +25,7 @@ html, body{
 }
 
 .heading-row{
-	/*background: light-grey;*/
+	background: #F1F0F2;
 	font-size: 25px;
 }
 
@@ -36,21 +36,44 @@ html, body{
 .left-vertical-bar-list-group a{
 	background: transparent;
 	border: none;
+	color: white;
 }
 
 .left-vertical-bar-icon{
 	font-size: 45px;
-	/*color: light-blue;*/
+	color: #ABB8CC;
 }
 
 .bitsint{
 	text-align: right;
 	font-size: 45px;
 	font-weight: 400;
+	color: #7A8696;
 }
 
 .refresh-btn{
 	border-radius: 50%;
+	background: #ABB8CC;
+	border: none;
+	color: white;
+}
+
+.active-projects-row{
+	padding-right: 0; 
+}
+
+.active-projects-row .nav{
+	background: #F1F0F2;
+}
+
+.active-projects-row .nav li a{
+	border-radius: 0;
+	border: none;
+}
+
+.active-projects-row .nav li a:hover{
+	background: #7A8696;
+	border: none;
 }
 
 .clock{

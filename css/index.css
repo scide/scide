@@ -13,41 +13,55 @@ body{
 	width: 18%;
 }
 
+.sections-row{
+	text-align: center;
+}
+
+.header-row{
+	height: 60px;
+}
 .sec{
-	position: absolute;
+	/*position: absolute;
 	top: 15%;
-	/*width: 40%;*/
+	width: 40%;
 	height: 75%;
 	
-	color: #8191a9;
+	color: #8191a9;*/
 }
 
 #left_section{
 	/*left:10%;*/
-	background: black;
+	/*background: black;
 	margin-left: 30px;
 	width: 59%;
-	border-right: 1px solid #8191a9;
+	border-right: 1px solid #8191a9;*/
+	margin: 100px 30px;
+	height: 550px;
+	background: black;
 }
 
 #right_section{
-	right:0%;
+	/*right:0%;
 	margin-right: 30px;
 	background: black;
 	width: 35%;
-	border-left: 1px solid #8191a9;
+	border-left: 1px solid #8191a9;*/
+	margin: 100px 30px;
+	height: 550px;
+	background: black;
 }
 
 #intro_text{
-    position: absolute;	
+    /*position: absolute;	*/
 	font-size: 1.5em;
-	left:30%;
+	/*left:30%;*/
 	padding-top: 50px;
 	font-family: "Mangal";
 }
 
 #intro_text p{	
 	margin: 0;
+	color: #8191a9;
 }
 span#sc{
 	color:#1fcaf6;
@@ -68,26 +82,30 @@ span#e{
 
 
 #signup_sec{
-	position: absolute;
+	/*position: absolute;*/
 	font-family: "Mangal";
 	font-size: 1.2em;
-	left:32%;
-	top:50%;
+	padding-top: 30px;
+	/*left:32%;*/
+	/*top:50%;*/
+}
+
+#signup_sec p{
+	color: #8191a9;
 }
 
 #signup_sec input{	
 	padding: 0;
-	position: absolute;
-	top:85%;
-	left:-12%;
-	/*background-color: white;	*/
-	width: 130%;
-	height: 120%;
+	/*position: absolute;*/
+	/*top:85%;*/
+	/*left:-12%;*/
+	width: 175px;
+	height: 45px;
 	border-radius: 0px;
-	/*color: black;*/
 	border: none;
 	background: #1fcaf6;
 	color: white;
+	font-size: 1.2em;
 }
 
 
@@ -95,14 +113,14 @@ span#e{
 
 #signin_sec{	
 	
-	position: absolute;
-	/*left:15%;*/
+	/*position: absolute;
+	left:15%;
 	margin-left: 150px;
 	margin-top: 50px;
 	font-family: "Mangal";
 	font-size: 1.4em;
 	height: 60%;
-	width: 100%;
+	width: 100%;*/
 }
 
 #signin_sec input{	
@@ -138,7 +156,7 @@ input[type=text]:focus, input[type=password]:focus {
 	/*left:0%;*/
 	/*top:70%;*/
 	margin-top: 47px;
-	color:#8191a9;
+	color: #8191a9;
 	font-size:0.7em;	
 }
 
@@ -148,9 +166,9 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 .submit input{	
-	position: absolute;
+	ition: absolute;
 	top:42%;
-	/*left:15%;*/
+	/*left:1pos5%;*/
 	margin-left: 150px;
 	border: none;
 	width: 43%;
@@ -163,35 +181,35 @@ input[type=text]:focus, input[type=password]:focus {
 
 #so_si{	
 	/*border: 1px solid white; */
-	position: absolute;
+	/*position: absolute;
 	top:55%;
-	/*left:20%;*/
+	left:20%;
 	margin-left: 150px;
 	width:80%;
-	height: 30%;
+	height: 30%;*/
 
 }
 
 #click_here{
-	position: absolute;
+	/*position: absolute;
 	left: 0%;
 	font-size: 1.2em;
-	color:#8191a9;
+	color:#8191a9;*/
 }
 
 #click_here:hover{
 	text-decoration:none;
 }
 #so_si p{
-	font-size: 1.2em;
+	/*font-size: 1.2em;
 	position: absolute;
-	top:20px;
+	top:20px;*/
 }
 
 #social_signin{
 	/*border: 1px solid white; */
-	position: absolute;
-	top:15%;
+	/*position: absolute;
+	top:15%;*/
 	/*left: 10%;*/
 }
 

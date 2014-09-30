@@ -22,73 +22,85 @@
    
     <!-- <img src="images/logo.png" id="logo"> -->
 
-    <nav class="navbar navbar-default header-sec" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- <a class="navbar-brand" href="#">Brand</a> -->
-          <ul class="nav navbar-nav navbar-left">
-            <li id="header-logo"><a href="#"><img src="images/logo.png" id=""></a></li>
-          </ul>
+    <div class="container-fluid">
+      <div class="row header-row">
+         <nav class="navbar navbar-default header-sec" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- <a class="navbar-brand" href="#">Brand</a> -->
+              <ul class="nav navbar-nav navbar-left">
+                <li id="header-logo"><a href="#"><img src="images/logo.png" id=""></a></li>
+              </ul>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ's</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav> 
+      </div>   
+
+      <div class="row sections-row">
+        <div class="col-md-8">
+          <div id="left_section" class="sec">
+            <div id="intro_text">
+              <p><span id="sc">Sci-de</span> is a <span id="p">project</span>
+              <p>forum for 
+              <span id="s">students</span> to
+              <p><span id="r">receive</span> help from 
+              <p>each other and <span id="e">experts.</span>
+              <p>Some more text</p>
+              <p>will come here . . .</p>
+            </div>
+
+            <div id="signup_sec">
+              <p>Not a member yet ? <p>
+              <div>
+                <input type="submit" value="SIGN UP" />
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-md-4">
+          <div id="right_section" class="sec">
+            <div id="signin_sec">
+              <p>Sign In</p>
+              <p><input type="text" name="login"        value=""          placeholder="Email"></p>
+              <p><input type="password" name="password" value=""   placeholder="Password"></p>
+              <p id="forgot"><a href="#">Forgot Password ?</a></p>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">FAQ's</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>    
+             <p class="submit"><input type="submit" name="commit" value="LOG IN"></p>
 
-    <div id="left_section" class="sec">
-      <div id="intro_text">
-        <p><span id="sc">Sci-de</span> is a <span id="p">project</span>
-        <p>forum for 
-        <span id="s">students</span> to
-        <p><span id="r">receive</span> help from 
-        <p>each other and <span id="e">experts.</span>
-        <p>Some more text</p>
-        <p>will come here . . .</p>
-      </div>
-
-      <div id="signup_sec">
-        <p>Not a member yet ? <p>
-        <div>
-          <input type="submit" value="SIGN UP" />
+            <div id="so_si">
+              <a href="#" id="click_here">Click Here to Sign in with </a> 
+              <div id="social_signin">
+              <a href=""><img class="social_buttons" src="images/fb_button.png"></a>
+              <a href=""><img class="social_buttons"src="images/twitter_button.png"></a>
+              <a href=""><img class="social_buttons" src="images/google_button.png"></a>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div id="right_section" class="sec">
-
-      <div id="signin_sec">
-        <p>Sign In</p>
-        <p><input type="text" name="login"        value=""          placeholder="Email"></p>
-        <p><input type="password" name="password" value=""   placeholder="Password"></p>
-        <p id="forgot"><a href="#">Forgot Password ?</a></p>
-      </div>
-
-       <p class="submit"><input type="submit" name="commit" value="LOG IN"></p>
-
-      <div id="so_si">
-        <a href="#" id="click_here">Click Here to Sign in with </a> 
-        <div id="social_signin">
-        <a href=""><img class="social_buttons" src="images/fb_button.png"></a>
-        <a href=""><img class="social_buttons"src="images/twitter_button.png"></a>
-        <a href=""><img class="social_buttons" src="images/google_button.png"></a>
-      </div>
+      <div class="row">
+        <div class="col-md-6">wfd</div>
+        <div class="col-md-6">qqqq</div>
       </div>
 
     </div>
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

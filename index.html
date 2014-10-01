@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +23,7 @@
    
     <!-- <img src="images/logo.png" id="logo"> -->
 
-    <div class="container-fluid">
+    <div class="container-fluid full-height">
       <div class="row header-row">
          <nav class="navbar navbar-default header-sec" role="navigation">
           <div class="container-fluid">
@@ -51,7 +52,7 @@
         </nav> 
       </div>   
 
-      <div class="row sections-row">
+      <div class="row sections-row full-height">
         <div class="col-md-8">
           <div id="left_section" class="sec">
             <div id="intro_text">
@@ -74,6 +75,12 @@
         </div>
         <div class="col-md-4">
           <div id="right_section" class="sec">
+            <!-- <div class="row alert-row"> -->
+            <div class="alert alert-danger alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <strong>Incorrect</strong> username or password!
+            </div>
+            <!-- </div> -->
             <div id="signin_sec">
               <p>Sign In</p>
               <p><input type="text" name="login"        value=""          placeholder="Email"></p>
@@ -93,11 +100,65 @@
             </div>
           </div>
         </div>
+        <div class="row down-arrow-row">
+          <div class="col-md-6 col-md-offset-3"><i class="fa fa-angle-double-down"></i></div>
+        </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-6">wfd</div>
-        <div class="col-md-6">qqqq</div>
+      <!-- DESCRIPTION ROW -->
+      <div class="row description-row">
+        <div class="row remove-margin pd-tp-40">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                photo1
+              </div>
+              <div class="col-md-8">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                photo2
+              </div>
+              <div class="col-md-8">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row remove-margin pd-tp-40">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                photo3
+              </div>
+              <div class="col-md-8">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                photo4
+              </div>
+              <div class="col-md-8">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="row footer-row">
+        <div calss="col-md-12">
+          <P>THIS IS THE FOOTER.</br> TEXT IS ADDED OT GIVE HEIGHT TO THIS DIVISION.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
       </div>
 
     </div>

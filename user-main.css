@@ -1,0 +1,131 @@
+html, body{
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*============ COMMON STYLES ========== */
+
+.full-height{
+	height: 100%;
+}
+
+.bold{
+	font-weight: 600;
+}
+
+/*============ CUSTOM STYLES ========== */
+
+.left-vertical-bar{
+	background: #4F5B6B;
+}
+
+.right-vertical-bar{
+	/*background: blue;*/
+}
+
+.heading-row{
+	background: #F1F0F2;
+	font-size: 25px;
+}
+
+.left-vertical-bar-list-group{
+	text-align: center;
+}
+
+.left-vertical-bar-list-group a{
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.left-vertical-bar-icon{
+	font-size: 45px;
+	color: #ABB8CC;
+}
+
+.bitsint{
+	text-align: right;
+	font-size: 45px;
+	font-weight: 400;
+	color: #7A8696;
+}
+
+.refresh-btn{
+	border-radius: 50%;
+	background: #ABB8CC;
+	border: none;
+	color: white;
+}
+
+.active-projects-row{
+	padding-right: 0; 
+}
+
+.active-projects-row .nav{
+	background: #F1F0F2;
+}
+
+.active-projects-row .nav li a{
+	border-radius: 0;
+	border: none;
+}
+
+.active-projects-row .nav li a:hover{
+	background: #7A8696;
+	border: none;
+}
+
+.clock{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+.projects-tab{
+	position: relative;
+	top: -3px;
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.badge{
+	position: relative;
+	top: -13px;
+	border-radius: 50%;
+}
+
+.search-input-group{
+	width: 50%;
+}
+
+.search-input-group input{
+	border: none;
+}
+
+.search-project-btn{
+	border-radius: 20px;
+	margin-right: 9px;
+}
+
+.fa-plus-circle{
+	font-size: 19px;
+	margin-top: 6px;
+}
+
+.search-project-row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.result-content{
+	padding-left: 0;
+}
+
+.view-project-btn{
+	border-radius: 20px;
+	margin-top: 15px;
+}
+
+.notification-row{
+	margin-top: 20px;
+}

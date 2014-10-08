@@ -128,7 +128,7 @@ span#e{
 }
 
 #signin_sec p{
-	color: #8191a9;
+	color: #428bca;
 	margin-bottom: 0;
 }
 
@@ -186,13 +186,34 @@ input[type=text]:focus, input[type=password]:focus {
 	/*left:1pos5%;*/
 	/*margin-left: 150px;*/
 	border: none;
-	width: 195px;
+	width: 220px;
 	height: 40px;
 	border-radius: 0px;
 	background-color:#1fcaf6; 
 	color: white;
 	font-size: 1.2em;
 	margin-left: 120px;
+}
+
+.social-button-row i{
+	font-size: 16px;
+}
+
+#left-social-col{
+	padding-left: 7px;
+}
+
+#right-social-col{
+	padding-left: 0;
+	margin-left: -12px;
+}
+
+.social-button-row .btn{
+	width: 110px;
+	border-radius: 0;
+	/*height: 40px;*/
+	background: #1fcaf6;
+	border-color: transparent;
 }
 
 #so_si{	
@@ -231,6 +252,14 @@ input[type=text]:focus, input[type=password]:focus {
 }
 #google{
 	color: #C1362C;
+}
+
+.social-button-row .fb-btn{
+	background: #3B5998; 
+}
+
+.social-button-row .google-btn{
+	background: #d34836;
 }
 
 #social_signin{
@@ -272,6 +301,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 .header-sec #header-logo a{
 	padding: 10px;
+	margin-left: 6px;
 }
 
 .header-sec #header-logo img{
@@ -285,7 +315,7 @@ input[type=text]:focus, input[type=password]:focus {
 /*----------------Description Rows----------------*/
 
 .description-row{
-	text-align: center;
+	text-align: left;
 }
 
 .description-row i{
@@ -295,6 +325,15 @@ input[type=text]:focus, input[type=password]:focus {
 
 .description-row p{
 	font-size: 18px;
+}
+.description-row .icon-col{
+	text-align: center;
+}
+.description-row .content-col{
+	margin-left: -10px;
+}
+.sub-heading{
+	color: #c48e9f;
 }
 
 /*----------------FOOTER ROW---------------------*/

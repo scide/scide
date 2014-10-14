@@ -135,6 +135,10 @@ span#e{
 	margin-bottom: 0;
 }
 
+#sign-in-heading{
+	font-size: 25px;
+}
+
 #signin_sec input{	
 	border: none;
 	width: 60%;

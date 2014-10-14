@@ -1,6 +1,7 @@
 body{
 	height: 100%;
 	width: 100%;
+	font-family: 'Lato', sans-serif;
 	/*background-color: #4e5b6c;*/
 	/*overflow: hidden;*/
 }
@@ -38,7 +39,8 @@ body{
 	border-right: 1px solid #8191a9;*/
 	margin: 100px 0px 20px 15px;
 	height: 600px;
-	background: #34495e;
+	/*background: #34495e;*/
+	background-image: url('../images/bg3.jpg');
 }
 
 #right_section{
@@ -54,16 +56,15 @@ body{
 }
 
 #intro_text{
-    /*position: absolute;	*/
-	font-size: 1.5em;
-	/*left:30%;*/
-	padding-top: 50px;
-	font-family: "Mangal";
+	font-size: 30px;
+	font-weight: 100;
+	padding-top: 180px;
+	color: black;
 }
 
 #intro_text p{	
 	margin: 0;
-	color: #8191a9;
+	/*color: #8191a9;*/
 }
 span#sc{
 	color:#1fcaf6;
@@ -85,7 +86,7 @@ span#e{
 
 #signup_sec{
 	/*position: absolute;*/
-	font-family: "Mangal";
+	/*font-family: "Mangal";*/
 	font-size: 1.2em;
 	padding-top: 30px;
 	/*left:32%;*/
@@ -93,7 +94,9 @@ span#e{
 }
 
 #signup_sec p{
-	color: #8191a9;
+	color: black;
+	margin: 0;
+	font-size: 15px;
 }
 
 #signup_sec input{	
@@ -119,7 +122,7 @@ span#e{
 	margin-left: 150px;
 	/*margin-top: 50px;*/
 	padding-top: 40px;
-	font-family: "Mangal";
+	/*font-family: "Mangal";*/
 	font-size: 1.4em;
 	text-align: left;
 	margin-left: 120px
@@ -152,7 +155,7 @@ span#e{
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
-  color:    #999;
+  color: #bdc3c7;
   font-size:0.8em;
 }
 
@@ -161,7 +164,7 @@ input[type=text], input[type=password]{
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
-  color: #404040;
+  color: #bdc3c7;
 }
 input[type=text]:focus, input[type=password]:focus {  
   outline: none;  
@@ -320,7 +323,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 .description-row i{
 	font-size: 80px;
-	color: #c48e9f;
+	/*color: #c48e9f;*/
 }
 
 .description-row p{
@@ -354,4 +357,25 @@ input[type=text]:focus, input[type=password]:focus {
 }
 .pd-tp-40{
 	padding-top: 40px;
+}
+.blue{
+	color: #3498db;
+}
+.green{
+	color: #2ecc71;
+}
+.purple{
+	color: #9b59b6;
+}
+.red{
+	color: #e74c3c;
+}
+.orange{
+	color: #e67e22;
+}
+.turquoise{
+	color: #1abc9c;
+}
+.font-weight-400{
+	font-weight: 400;
 }

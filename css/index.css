@@ -121,7 +121,7 @@ span#e{
 	/*left:15%;*/
 	margin-left: 150px;
 	/*margin-top: 50px;*/
-	padding-top: 40px;
+	padding-top: 85px;
 	/*font-family: "Mangal";*/
 	font-size: 1.4em;
 	text-align: left;
@@ -189,9 +189,6 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 .submit input{	
-	/*top:42%;*/
-	/*left:1pos5%;*/
-	/*margin-left: 150px;*/
 	border: none;
 	width: 220px;
 	height: 40px;
@@ -200,6 +197,13 @@ input[type=text]:focus, input[type=password]:focus {
 	color: white;
 	font-size: 1.2em;
 	margin-left: 120px;
+}
+
+#register-with{
+	margin-left: 120px;
+	color: #428bca;	
+	margin-bottom: -1px;
+	margin-top: 20px;
 }
 
 .social-button-row i{
@@ -382,4 +386,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 .font-weight-400{
 	font-weight: 400;
+}
+.fs-22{
+	font-size: 22px;
 }
